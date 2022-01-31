@@ -3,18 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub page as PWA template</title>
+  <title>Happy Birthday Saurav Singh</title>
   <link rel="canonical" href="https://SudhansuuRanjan.github.io/hbd-saurav-singh/" />
   <link rel="manifest" href="/hbd-saurav-singh/manifest.webmanifest">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
- 
-  <h1>GitHub page as PWA template</h1>
-  <p>
-    This is a Birthday gallery for Saurav Singh.
-  </p>
 
+  <section aria-label="Newest Photos">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+      <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="img/img1.jpg" alt="Nature Image #1">
+        </li>
+        <li class="slide">
+          <img src="img/img2.jpg" alt="Nature Image #2">
+        </li>
+        <li class="slide">
+          <img src="img/img3.jpg" alt="Nature Image #3">
+        </li>
+        <li class="slide" data-active>
+          <img src="img/img4.jpg" alt="Nature Image #1">
+        </li>
+        <li class="slide">
+          <img src="img/img5.jpg" alt="Nature Image #2">
+        </li>
+        <li class="slide">
+          <img src="img/img6.jpg" alt="Nature Image #3">
+        </li>
+        <li class="slide" data-active>
+          <img src="img/img7.jpg" alt="Nature Image #1">
+        </li>
+        <li class="slide">
+          <img src="img/img8.jpg" alt="Nature Image #2">
+        </li>
+        <li class="slide">
+          <img src="img/img9.jpg" alt="Nature Image #3">
+        </li>
+        <li class="slide" data-active>
+          <img src="img/img10.jpg" alt="Nature Image #1">
+        </li>
+        <li class="slide">
+          <img src="img/img11.jpg" alt="Nature Image #2">
+        </li>
+        <li class="slide">
+          <img src="img/img12.jpg" alt="Nature Image #3">
+        </li>
+        <li class="slide">
+          <img src="img/img13.jpg" alt="Nature Image #3">
+        </li>
+        <li class="slide">
+          <img src="img/img14.jpg" alt="Nature Image #3">
+        </li>
+      </ul>
+    </div>
+  </section>
+   
   <script>
       if (navigator.serviceWorker) {
         navigator.serviceWorker.register (
@@ -23,6 +69,7 @@
         )
       }
   </script>
+  
   <script src="js/app.js"></script>
 </body>
 </html>

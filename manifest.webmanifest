@@ -1,15 +1,15 @@
 {
-  "name": "Github Page PWA",
-  "short_name": "GPPWA",
+  "name": "HBD Saurav",
+  "short_name": "HBDSS",
   "description": "Github Page as a Progressive Web App",
-  "scope": "/github-page-pwa/",
-  "start_url": "/github-page-pwa/",
+  "scope": "/hbd-saurav-singh/",
+  "start_url": "/hbd-saurav-singh/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone", 
   "icons": [
       {
-        "src": "/github-page-pwa/img/icon.png",
+        "src": "/hbd-saurav-singh/img/icon.png",
         "type": "image/png",
         "sizes": "700x700"
       }

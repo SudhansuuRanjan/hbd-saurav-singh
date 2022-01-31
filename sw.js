@@ -6,6 +6,20 @@ var URLS = [
   `${GHPATH}/index.html`,
   `${GHPATH}/css/styles.css`,
   `${GHPATH}/img/icon.png`,
+  `${GHPATH}/img/img1.jpg`,
+  `${GHPATH}/img/img2.jpg`,
+  `${GHPATH}/img/img3.jpg`,
+  `${GHPATH}/img/img4.jpg`,
+  `${GHPATH}/img/img5.jpg`,
+  `${GHPATH}/img/img6.jpg`,
+  `${GHPATH}/img/img7.jpg`,
+  `${GHPATH}/img/img8.jpg`,
+  `${GHPATH}/img/img9.jpg`,
+  `${GHPATH}/img/img10.jpg`,
+  `${GHPATH}/img/img11.jpg`,
+  `${GHPATH}/img/img12.jpg`,
+  `${GHPATH}/img/img13.jpg`,
+  `${GHPATH}/img/img14.jpg`,
   `${GHPATH}/js/app.js`
 ]
 
